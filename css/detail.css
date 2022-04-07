@@ -1,0 +1,281 @@
+.de_container{
+    margin-top: 20px;
+}
+
+.crumb_wrap a{
+    margin:  0 10px;
+}
+.preview_wrap{
+    width: 400px;
+    height: 590px;
+}
+.preview_img{
+    overflow: hidden;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.preview_list{
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+.list_item{
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li{
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    margin: 0 2px;
+}
+.list_item li img{
+    width: 56px;
+    height: 56px;
+    border: 0;
+}
+.arrow_prev,
+.arrow_next{
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+.arrow_prev{
+    left: 0;
+    background: url(../upload/disabled-prev.png);
+}
+.arrow_next{
+    right: 0;
+    background: url(../upload/disabled-next.png);
+}
+.itemInfo_wrap{
+    width: 718px;
+}
+.sku_name{
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+}
+.news{
+    color: red;
+    height: 32px;
+}
+.summary_price
+,.summary_promotion{
+    position: relative;
+    background-color: #fee9eb;
+    padding: 10px 0;
+}
+.summary dl{
+    overflow: hidden;
+}
+.summary dt{
+    float: left;
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+    
+}
+.summary dd{
+    float: left;
+}
+.summary .price{
+    font-size: 24px;
+    color: red;
+}
+.summary_price a{
+    color:rgb(192, 13, 13);
+}
+.remark{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.summary_promotion{
+    padding-top: 0;
+}
+.summary_promotion dd{
+    width: 450px;
+    line-height: 36px
+}
+.summary_promotion dd em{
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+.summary_support dd{
+    line-height: 36px;
+}
+.choose_color a{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+.summary a.current{
+    border-color: #c82623;
+}
+.choose_version,
+.choose_type{
+    margin: 10px 0;
+}
+.choose_version a,
+.choose_type a{
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+}
+.choose_btns{
+    margin-top: 20px;
+}
+.choose_amount{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    margin-right:  20px;
+}
+.choose_amount input{
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.add,.reduce{
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.add{
+    top:0 ;    
+}
+.reduce{
+    bottom: 0;
+    cursor: not-allowed;
+}
+.addcar{
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+.product_detail{
+    margin-bottom: 50px;
+}
+.aside{
+    float: left;
+    width: 209px;
+    border: 1px solid #ccc;
+}
+.tab_list{
+    height: 34px;
+}
+.tab_list li{
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.tab_list .current{
+    background-color: #fff;
+    border-bottom: 0;
+    color: red;
+}
+.tab_first{
+    width: 104px;
+}
+.tab_second{
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_con {
+    padding: 10px;
+}
+.tab_con li{
+    border-bottom: 1px solid #ccc;
+}
+.tab_con h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.tab_con img{
+    display: block;
+    margin:10px auto;
+}
+.aside_price{
+    font-weight: 700;
+    padding: 10px 0;
+}
+.as_addcar{
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin:0 auto 10px;
+    text-align: center;
+    line-height: 26px;
+}
+.detail{
+    float: right;
+    width: 978px;
+}
+.detail_tablist{
+    height: 39px;
+    border :1px solid  #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tablist li{
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.detail_tablist .current{
+    background-color: #c81623;
+    color:#fff;
+}
+.detail_tabcon{
+
+}
+.item_info{
+    padding: 20px 0 0 20px;
+}
+.item_info li{
+    line-height: 22px;
+}
+.more{
+    float: right;
+    font-weight: 700;
+}
